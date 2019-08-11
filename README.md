@@ -19,7 +19,7 @@ docker run -d --net=host -p 5432:5432 -v pgdata:/var/lib/postgresql/data --name 
 ### Manage
 
 ```console
-docker exec -ti psql
+docker exec -ti postgresql psql
 ```
 
 ### Donation
